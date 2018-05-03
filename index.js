@@ -33,5 +33,9 @@ function makeInt(a) {
   return a
 }
 
+function preserveDecimal(a) {
+  parseInt(a, 10) 
+  return a
+}
 
 
