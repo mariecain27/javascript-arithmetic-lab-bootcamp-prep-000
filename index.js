@@ -18,11 +18,9 @@ function divide(a, b) {
   divide (5.0, 2.5)
 }
 
-function inc() {
-  var n = 1
-    parseInt(n, 10)
-  n++ 
-  return n
+function inc(a) {
+  a++ 
+  return a
 }
 
 
