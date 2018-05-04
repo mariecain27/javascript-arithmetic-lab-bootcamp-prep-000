@@ -37,8 +37,11 @@ function makeInt(a) {
 }
 
 function preserveDecimal(a) {
-  parseFloat(a) 
-  return a
+  if (parseFloat(a)) { 
+  return a;
+  } else {
+    
+  }
 }
 
 
