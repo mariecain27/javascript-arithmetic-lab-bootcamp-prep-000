@@ -29,8 +29,12 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  parseInt(a, 10) 
-  return a 
+  if (parseInt(a, 10)) {
+    return a
+  } else {
+    (parseInt(a, 16))
+    return 0
+  }
 }
 
 
