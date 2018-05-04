@@ -41,7 +41,7 @@ function preserveDecimal(a) {
     return true;
   } else {
   parseFloat(a)
-  return 'a';
+  return a;
   }
 }
 
