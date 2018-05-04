@@ -29,7 +29,7 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  if (a begins with 0)) {
+  if (parseInt(a,16)) {
     return 0
   } else {
   parseInt(a, 10) 
