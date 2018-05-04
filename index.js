@@ -31,7 +31,7 @@ function dec(a) {
 function makeInt(a) {
   if (isNaN(a)) {
     return 0
-  }else {
+  } else {
   parseInt(a, 10) 
   return a 
   }
