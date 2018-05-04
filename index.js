@@ -29,7 +29,7 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  if (a === 'a') {
+  if (a == String) {
     return 0
   } else {
   parseInt(a, 10) 
