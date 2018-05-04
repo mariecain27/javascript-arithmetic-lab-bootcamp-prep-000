@@ -36,6 +36,12 @@ function makeInt(a) {
   }
 }
 
-
+function preserveDecimal(a) {
+  if (isNaN(a)) {
+    return true
+  }
+  parseFloat(a)
+  return 'a'
+}
 
 
