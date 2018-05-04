@@ -33,7 +33,7 @@ function makeInt(a) {
     return a;
   } else if (parseInt(a, 16)) {
      return 0;
-  } else {
+  } else if (isNaN(a)) {
      return true;
   }
 }
