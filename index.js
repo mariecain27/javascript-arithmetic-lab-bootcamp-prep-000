@@ -40,7 +40,7 @@ function preserveDecimal(a) {
   if (parseFloat(a)) { 
   return a;
   } else {
-    return 
+    return true
   }
 }
 
