@@ -30,13 +30,13 @@ function dec(a) {
 
 function makeInt(a) {
   if (parseInt(a, 10)) {
-    return a
+    return a;
   } else {
     (parseInt(a, 16))
-    return 0
+    return 0;
   } else {
     isNaN(a)
-    return true
+    return true;
   }
 }
 
