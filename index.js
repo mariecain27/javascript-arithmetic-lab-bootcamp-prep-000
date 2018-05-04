@@ -31,9 +31,9 @@ function dec(a) {
 function makeInt(a) {
   if (parseInt(a, 10)) {
     return a;
-  } else (parseInt(a, 16)) {
+  } else if (parseInt(a, 16)) {
      return 0;
-  } else isNaN(a) {
+  } else {
      return true;
   }
 }
