@@ -35,7 +35,7 @@ function makeInt(a) {
     (parseInt(a, 16))
     return 0
   } else {
-    (isNaN(a))
+    isNaN(a)
     return true
   }
 }
