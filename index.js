@@ -29,21 +29,13 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  if (a == String) {
+  if (isNaN(a)) {
     return 0
-  } else {
+  }else {
   parseInt(a, 10) 
   return a 
   }
 }
-
-function roughScale(x, base) {
-  var parsed = parseInt(x, base);
-  if (isNaN(parsed)) { return 0 }
-  return parsed * 100;
-}
-
-
 
 
 function preserveDecimal(a) {
