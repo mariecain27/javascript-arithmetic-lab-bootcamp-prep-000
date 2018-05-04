@@ -29,12 +29,12 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  if (a = string) {
+  if (a === 'a') {
     return 0
   } else {
   parseInt(a, 10) 
-  return a
-  {
+  return a 
+  }
 }
 
 function preserveDecimal(a) {
