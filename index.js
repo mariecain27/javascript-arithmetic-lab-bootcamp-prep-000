@@ -38,10 +38,11 @@ function makeInt(a) {
 
 function preserveDecimal(a) {
   if (isNaN(a)) {
-    return true
-  }
+    return true;
+  } else {
   parseFloat(a)
-  return 'a'
+  return 'a';
+  }
 }
 
 
