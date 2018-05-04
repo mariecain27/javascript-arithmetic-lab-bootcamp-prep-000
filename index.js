@@ -29,16 +29,8 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  if (isNaN(a)) {
-    return true 
-  } else {
-  if (
-    parseInt(a, 10)) {
-    return 0
-  } else {
   parseInt(a, 10) 
   return a 
-  }
 }
 
 
